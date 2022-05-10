@@ -18,25 +18,25 @@ def assign_val():
     }
     return m_data
 
-# API to display first article
+# API para mostrar el primer artículo
 @app.route("/get-article")
 def get_article():
 
-    return 'Write code to display the first item in all_articles list'
+    return 'Escribir código para mostrar el primer objeto en la lista all_articles'
 
 
-# API to move the article into liked articles list
+# API para mover el artículo a la lista de artículos que me gustan
 @app.route("/liked-article")
 def liked_article():
 
-    return 'Write code to shift first article into liked_articles list'
+    return 'Escribir código para mover el primer artículo a la lista liked_articles'
 
 
-# # API to move the article into not liked articles list
+# # API para mover el artículo a la lista de artículos que no me gustan
 @app.route("/unliked-article")
 def unliked_article():
 
-    return 'Write code to shift first article into not_liked_articles list'
+    return 'Escribir código para cambiar el primer artículo a la lista not_liked_articles'
 
 # run the application
 if __name__ == "__main__":
