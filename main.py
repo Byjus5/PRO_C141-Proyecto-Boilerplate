@@ -38,6 +38,6 @@ def unliked_article():
 
     return 'Escribir código para cambiar el primer artículo a la lista not_liked_articles'
 
-# run the application
+# ejecuta la app
 if __name__ == "__main__":
     app.run()
